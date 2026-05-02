@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saini Dental Clinic & Implant Centre – Babain, Haryana | 5.0★ Rated</title>
+<meta name="description" content="Saini Dental Clinic & Implant Centre in Babain, Haryana. 5.0 stars with 42 reviews. Expert dental care – teeth whitening, implants, cosmetic procedures & more. Book today!">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦷</text></svg>">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy: #0B2545;
+    --blue: #1A6FA8;
+    --teal: #0E9F8C;
+    --light: #F0F7FF;
+    --white: #FFFFFF;
+    --gray: #6B7280;
+    --text: #1A202C;
+    --border: #E2EAF4;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    color: var(--text);
+    background: var(--white);
+    overflow-x: hidden;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed; top: 0; width: 100%; z-index: 100;
+    background: rgba(255,255,255,0.97);
+    border-bottom: 1px solid var(--border);
+    padding: 0 5%;
+    display: flex; align-items: center; justify-content: space-between;
+    height: 68px;
+    backdrop-filter: blur(8px);
+  }
+
+  .nav-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    color: var(--navy);
+    text-decoration: none;
+  }
+
+  .nav-logo span { color: var(--teal); }
+
+  .nav-links {
+    display: flex; gap: 2rem; list-style: none;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--gray);
+    transition: color 0.2s;
+  }
+
+  .nav-links a:hover { color: var(--blue); }
+
+  .nav-cta {
+    background: var(--teal);
+    color: white !important;
+    padding: 0.5rem 1.2rem;
+    border-radius: 50px;
+    font-weight: 600 !important;
+    transition: background 0.2s !important;
+  }
+
+  .nav-cta:hover { background: #0b8a79 !important; color: white !important; }
+
+  /* ── HERO ── */
+  #hero {
+    padding: 140px 5% 80px;
+    background: linear-gradient(135deg, #EBF4FF 0%, #F0FDFB 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    min-height: 90vh;
+  }
+
+  .hero-content { max-width: 560px; }
+
+  .hero-badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 50px;
+    padding: 6px 16px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--navy);
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  }
+
+  .stars-sm { color: #f5a623; letter-spacing: 1px; font-size: 0.75rem; }
+
+  .hero-content h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    line-height: 1.18;
+    color: var(--navy);
+    margin-bottom: 1.2rem;
+  }
+
+  .hero-content h1 span { color: var(--teal); }
+
+  .hero-content p {
+    font-size: 1.05rem;
+    color: var(--gray);
+    line-height: 1.7;
+    margin-bottom: 2rem;
+    font-weight: 300;
+  }
+
+  .hero-btns { display: flex; gap: 1rem; flex-wrap: wrap; }
+
+  .btn-primary {
+    background: var(--teal);
+    color: white;
+    padding: 0.85rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all 0.2s;
+    box-shadow: 0 4px 20px rgba(14,159,140,0.3);
+  }
+
+  .btn-primary:hover { background: #0b8a79; transform: translateY(-2px); }
+
+  .btn-outline {
+    border: 2px solid var(--navy);
+    color: var(--navy);
+    padding: 0.85rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all 0.2s;
+  }
+
+  .btn-outline:hover { background: var(--navy); color: white; }
+
+  .hero-stats {
+    display: flex; gap: 2.5rem;
+    margin-top: 2.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+  }
+
+  .hero-stat h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    color: var(--navy);
+  }
+
+  .hero-stat p { font-size: 0.82rem; color: var(--gray); margin-top: 2px; }
+
+  .hero-image {
+    flex-shrink: 0;
+    width: 420px;
+    background: var(--navy);
+    border-radius: 24px;
+    overflow: hidden;
+    aspect-ratio: 4/5;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-img-inner {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(160deg, #1A6FA8 0%, #0B2545 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .tooth-icon {
+    width: 120px;
+    height: 120px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 56px;
+  }
+
+  .hero-img-text {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    line-height: 1.3;
+  }
+
+  .hero-img-sub { color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.3rem; }
+
+  .review-card-float {
+    background: white;
+    border-radius: 16px;
+    padding: 1rem 1.2rem;
+    margin-top: 1.5rem;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+    text-align: left;
+    width: 100%;
+  }
+
+  .review-card-float .stars { color: #f5a623; font-size: 0.9rem; }
+  .review-card-float p { font-size: 0.78rem; color: #555; margin-top: 4px; font-family: 'DM Sans', sans-serif; }
+  .review-card-float .reviewer { font-size: 0.72rem; color: #999; margin-top: 6px; font-weight: 500; }
+
+  /* ── SECTIONS ── */
+  section { padding: 80px 5%; }
+
+  .section-label {
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--teal);
+    margin-bottom: 0.6rem;
+  }
+
+  .section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.6rem, 3vw, 2.5rem);
+    color: var(--navy);
+    line-height: 1.25;
+    margin-bottom: 0.8rem;
+  }
+
+  .section-sub {
+    color: var(--gray);
+    font-size: 1rem;
+    line-height: 1.7;
+    max-width: 540px;
+    font-weight: 300;
+  }
+
+  /* ── SERVICES ── */
+  #services { background: var(--light); }
+
+  .services-header { text-align: center; margin-bottom: 3rem; }
+  .services-header .section-sub { margin: 0 auto; }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .service-card {
+    background: white;
+    border-radius: 18px;
+    padding: 2rem;
+    border: 1px solid var(--border);
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .service-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--blue), var(--teal));
+    transform: scaleX(0);
+    transition: transform 0.3s;
+    transform-origin: left;
+  }
+
+  .service-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(0,0,0,0.1); }
+  .service-card:hover::before { transform: scaleX(1); }
+
+  .service-icon {
+    width: 52px; height: 52px;
+    background: var(--light);
+    border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .service-card h3 { font-size: 1.05rem; font-weight: 600; color: var(--navy); margin-bottom: 0.5rem; }
+  .service-card p { font-size: 0.88rem; color: var(--gray); line-height: 1.6; font-weight: 300; }
+
+  /* ── WHY US ── */
+  #why {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: center;
+  }
+
+  .why-list { display: flex; flex-direction: column; gap: 1.5rem; margin-top: 2rem; }
+
+  .why-item { display: flex; gap: 1rem; align-items: flex-start; }
+
+  .why-icon {
+    width: 44px; height: 44px; min-width: 44px;
+    background: linear-gradient(135deg, var(--blue), var(--teal));
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.1rem;
+  }
+
+  .why-item h4 { font-size: 1rem; font-weight: 600; color: var(--navy); margin-bottom: 3px; }
+  .why-item p { font-size: 0.87rem; color: var(--gray); line-height: 1.5; font-weight: 300; }
+
+  .why-visual {
+    background: linear-gradient(135deg, #0B2545, #1A6FA8);
+    border-radius: 24px;
+    padding: 2.5rem;
+    color: white;
+  }
+
+  .why-visual-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    opacity: 0.95;
+  }
+
+  .stat-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .stat-box {
+    background: rgba(255,255,255,0.1);
+    border-radius: 14px;
+    padding: 1.2rem;
+    text-align: center;
+  }
+
+  .stat-box .num {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #7EEEDD;
+  }
+
+  .stat-box .lbl { font-size: 0.77rem; color: rgba(255,255,255,0.7); margin-top: 2px; }
+
+  .timing-box {
+    background: rgba(255,255,255,0.08);
+    border-radius: 14px;
+    padding: 1.2rem 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .timing-box h4 { font-size: 0.85rem; font-weight: 600; color: rgba(255,255,255,0.7); letter-spacing: 2px; text-transform: uppercase; margin-bottom: 0.8rem; }
+
+  .timing-row { display: flex; justify-content: space-between; font-size: 0.85rem; color: rgba(255,255,255,0.9); padding: 5px 0; border-bottom: 1px solid rgba(255,255,255,0.1); }
+  .timing-row:last-child { border-bottom: none; }
+  .timing-row .closed { color: #FF9B9B; }
+
+  /* ── TESTIMONIALS ── */
+  #testimonials { background: var(--light); text-align: center; }
+
+  .testimonials-header { margin-bottom: 3rem; }
+
+  .reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .review-card {
+    background: white;
+    border-radius: 18px;
+    padding: 1.8rem;
+    border: 1px solid var(--border);
+    text-align: left;
+    position: relative;
+    transition: all 0.3s;
+  }
+
+  .review-card:hover { box-shadow: 0 8px 32px rgba(0,0,0,0.08); transform: translateY(-2px); }
+
+  .review-stars { color: #f5a623; font-size: 1rem; letter-spacing: 2px; margin-bottom: 1rem; }
+
+  .review-text { font-size: 0.92rem; color: var(--text); line-height: 1.7; font-weight: 300; margin-bottom: 1.2rem; font-style: italic; }
+
+  .review-author { display: flex; align-items: center; gap: 10px; }
+
+  .author-avatar {
+    width: 38px; height: 38px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--blue), var(--teal));
+    display: flex; align-items: center; justify-content: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: white;
+  }
+
+  .author-name { font-size: 0.88rem; font-weight: 600; color: var(--navy); }
+  .author-tag { font-size: 0.75rem; color: var(--gray); }
+
+  .google-badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--navy);
+    margin-top: 2.5rem;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+  }
+
+  .google-g {
+    width: 22px; height: 22px;
+    background: #4285F4;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 700;
+  }
+
+  /* ── CONTACT ── */
+  #contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: start;
+  }
+
+  .contact-info { }
+
+  .contact-detail {
+    display: flex; gap: 1rem; align-items: flex-start;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-icon {
+    width: 44px; height: 44px; min-width: 44px;
+    background: var(--light);
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.1rem;
+  }
+
+  .contact-detail h4 { font-size: 0.82rem; font-weight: 600; color: var(--gray); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 3px; }
+  .contact-detail p { font-size: 0.95rem; color: var(--navy); font-weight: 500; line-height: 1.5; }
+
+  .map-embed {
+    width: 100%;
+    border-radius: 18px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    height: 280px;
+    background: var(--light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .map-embed p { color: var(--gray); font-size: 0.9rem; }
+
+  .map-link {
+    background: var(--blue);
+    color: white;
+    padding: 0.6rem 1.5rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 0.88rem;
+    font-weight: 600;
+    transition: background 0.2s;
+  }
+
+  .map-link:hover { background: #155e8e; }
+
+  .contact-form-wrap { }
+
+  .form-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: var(--navy);
+    margin-bottom: 1.5rem;
+  }
+
+  .form-group { margin-bottom: 1.2rem; }
+
+  .form-group label {
+    display: block;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--navy);
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.95rem;
+    color: var(--text);
+    background: white;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus { border-color: var(--teal); }
+
+  .form-group textarea { height: 100px; resize: none; }
+
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+
+  .form-submit {
+    width: 100%;
+    padding: 1rem;
+    background: var(--teal);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-top: 0.5rem;
+  }
+
+  .form-submit:hover { background: #0b8a79; transform: translateY(-1px); }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--navy);
+    color: rgba(255,255,255,0.8);
+    padding: 3rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .footer-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    color: white;
+  }
+
+  .footer-brand span { color: var(--teal); }
+
+  .footer-links { display: flex; gap: 2rem; flex-wrap: wrap; }
+  .footer-links a { color: rgba(255,255,255,0.6); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+  .footer-links a:hover { color: white; }
+
+  .footer-copy { font-size: 0.8rem; color: rgba(255,255,255,0.4); width: 100%; text-align: center; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); }
+
+  /* ── WHATSAPP FLOAT ── */
+  .whatsapp-float {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    z-index: 999;
+    background: #25D366;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 24px rgba(37, 211, 102, 0.45);
+    text-decoration: none;
+    animation: pulse-wa 2.5s ease-in-out infinite;
+    transition: transform 0.2s;
+  }
+
+  .whatsapp-float:hover { transform: scale(1.1); }
+
+  @keyframes pulse-wa {
+    0%, 100% { box-shadow: 0 4px 24px rgba(37,211,102,0.45); }
+    50% { box-shadow: 0 4px 40px rgba(37,211,102,0.7); }
+  }
+
+  .whatsapp-float svg { width: 32px; height: 32px; fill: white; }
+
+  /* ── ANIMATIONS ── */
+  .fade-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease-out;
+  }
+
+  .fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* ── MOBILE ── */
+  @media (max-width: 900px) {
+    #hero { flex-direction: column; padding: 120px 5% 60px; text-align: center; }
+    .hero-btns { justify-content: center; }
+    .hero-stats { justify-content: center; }
+    .hero-image { width: 100%; max-width: 380px; aspect-ratio: 16/9; }
+    #why, #contact { grid-template-columns: 1fr; gap: 3rem; }
+    .why-visual { order: -1; }
+    nav ul { display: none; }
+    .form-row { grid-template-columns: 1fr; }
+  }
+
+  @media (max-width: 600px) {
+    section { padding: 60px 5%; }
+    .hero-stats { gap: 1.5rem; }
+    footer { flex-direction: column; text-align: center; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">Saini <span>Dental & Implants</span></a>
+  <ul class="nav-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#why">About</a></li>
+    <li><a href="#testimonials">Reviews</a></li>
+    <li><a href="#contact" class="nav-cta">Book Appointment</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-content fade-up">
+    <div class="hero-badge">
+      <span class="stars-sm">★★★★★</span>
+      5.0 Rated · 42 Patient Reviews
+    </div>
+    <h1>Your Smile Deserves <span>Expert Care</span> in Babain, Haryana</h1>
+    <p>Trusted by patients across Babain and Kurukshetra, Haryana. Modern dental treatments with implant expertise, in a caring clinic that puts your comfort first.</p>
+    <div class="hero-btns">
+      <a href="tel:08818083738" class="btn-primary">📞 Call Now</a>
+      <a href="#contact" class="btn-outline">Book Appointment</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <h3>5.0★</h3>
+        <p>Google Rating</p>
+      </div>
+      <div class="hero-stat">
+        <h3>42★</h3>
+        <p>Happy Patients</p>
+      </div>
+      <div class="hero-stat">
+        <h3>7 PM</h3>
+        <p>Open Daily</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-image fade-up">
+    <div class="hero-img-inner">
+      <div class="tooth-icon">🦷</div>
+      <div class="hero-img-text">Saini Dental Clinic & Implant Centre</div>
+      <div class="hero-img-sub">Babain · Haryana</div>
+      <div class="review-card-float">
+        <div class="stars">★★★★★</div>
+        <p>"Friendly staff and clean space. Best dental clinic in the area!"</p>
+        <div class="reviewer">— Verified · Google Review</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="services-header fade-up">
+    <div class="section-label">What We Offer</div>
+    <h2 class="section-title">Comprehensive Dental Care</h2>
+    <p class="section-sub">From routine checkups to advanced dental procedures, we offer complete oral healthcare for your whole family.</p>
+  </div>
+  <div class="services-grid">
+    <div class="service-card fade-up">
+      <div class="service-icon">🧹</div>
+      <h3>Teeth Cleaning & Scaling</h3>
+      <p>Professional whitening and deep cleaning to remove stains and tartar, leaving your smile bright and healthy.</p>
+    </div>
+    <div class="service-card fade-up">
+      <div class="service-icon">🔧</div>
+      <h3>Root Canals &amp; Extractions</h3>
+      <p>Painless root canal therapy and safe extractions to restore dental health and eliminate infection effectively.</p>
+    </div>
+    <div class="service-card fade-up">
+      <div class="service-icon">🦷</div>
+      <h3>Dental Implants</h3>
+      <p>Permanent, natural-looking replacement for missing teeth. Restore your smile and confidence for life.</p>
+    </div>
+    <div class="service-card fade-up">
+      <div class="service-icon">✨</div>
+      <h3>Cosmetic Procedures</h3>
+      <p>Bonding, teeth reshaping, and cosmetic dental work to enhance your smile and boost your confidence.</p>
+    </div>
+    <div class="service-card fade-up">
+      <div class="service-icon">😁</div>
+      <h3>Braces & Orthodontics</h3>
+      <p>Gentle, child-friendly dental care for your little ones — checkups, fillings, and preventive treatments.</p>
+    </div>
+    <div class="service-card fade-up">
+      <div class="service-icon">🏥</div>
+      <h3>Emergency &amp; Oral Surgery</h3>
+      <p>Same-day emergency care, oral surgery, fillings, sealants, and mouth guards — all under one roof.</p>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section id="why">
+  <div class="fade-up">
+    <div class="section-label">Why Choose Us</div>
+    <h2 class="section-title">Babain's Most Trusted Dental Clinic</h2>
+    <p class="section-sub">42 happy patients trust us with their smiles. Here's why.</p>
+    <div class="why-list">
+      <div class="why-item">
+        <div class="why-icon">⭐</div>
+        <div>
+          <h4>5.0 Stars — 42 Reviews</h4>
+          <p>A perfect 5.0 rating on Google with 42 reviews. Real patients, real results — quality care you can count on.</p>
+        </div>
+      </div>
+      <div class="why-item">
+        <div class="why-icon">💉</div>
+        <div>
+          <h4>Painless Treatments</h4>
+          <p>Latest anaesthesia techniques and gentle methods ensure a comfortable, stress-free experience.</p>
+        </div>
+      </div>
+      <div class="why-item">
+        <div class="why-icon">🔬</div>
+        <div>
+          <h4>Advanced Equipment</h4>
+          <p>State-of-the-art dental technology for accurate diagnosis and precision treatment.</p>
+        </div>
+      </div>
+      <div class="why-item">
+        <div class="why-icon">👨‍👩‍👧</div>
+        <div>
+          <h4>Family-Friendly Clinic</h4>
+          <p>We treat patients of all ages — from children to seniors — in a warm and welcoming environment.</p>
+        </div>
+      </div>
+      <div class="why-item">
+        <div class="why-icon">📍</div>
+        <div>
+          <h4>Conveniently Located</h4>
+          <p>Conveniently located near Saini Pansari & Aggarwal Electronics, Ram Saran Majra, Babain — easy to find with ample parking nearby.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="why-visual fade-up">
+    <div class="why-visual-title">Clinic at a Glance</div>
+    <div class="stat-row">
+      <div class="stat-box">
+        <div class="num">5.0★</div>
+        <div class="lbl">Google Rating</div>
+      </div>
+      <div class="stat-box">
+        <div class="num">42★</div>
+        <div class="lbl">Reviews</div>
+      </div>
+    </div>
+    <div class="stat-row">
+      <div class="stat-box">
+        <div class="num">10+</div>
+        <div class="lbl">Years Serving</div>
+      </div>
+      <div class="stat-box">
+        <div class="num">6</div>
+        <div class="lbl">Specialties</div>
+      </div>
+    </div>
+    <div class="timing-box">
+      <h4>Clinic Hours</h4>
+      <div class="timing-row"><span>Mon – Sun</span><span>Open till 7:00 PM</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="testimonials-header fade-up">
+    <div class="section-label">Patient Reviews</div>
+    <h2 class="section-title">What Our Patients Say</h2>
+    <p class="section-sub" style="margin: 0 auto;">42 glowing reviews on Google. Don't take our word for it.</p>
+  </div>
+  <div class="reviews-grid">
+    <div class="review-card fade-up">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">"Friendly staff and very clean clinic. The doctor was extremely professional and made sure the treatment was painless. Best dental clinic in Babain!"</p>
+      <div class="review-author">
+        <div class="author-avatar">RS</div>
+        <div>
+          <div class="author-name">Rajesh Saini</div>
+          <div class="author-tag">General Patient</div>
+        </div>
+      </div>
+    </div>
+    <div class="review-card fade-up">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">"Got my implants done here and the results are outstanding. Very modern equipment and the doctor is highly skilled. Completely natural feeling!"</p>
+      <div class="review-author">
+        <div class="author-avatar">PK</div>
+        <div>
+          <div class="author-name">Pawan Kumar</div>
+          <div class="author-tag">Implant Patient</div>
+        </div>
+      </div>
+    </div>
+    <div class="review-card fade-up">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">"Took my whole family here. The doctor is so gentle and patient with kids too. Saini Dental Clinic is our go-to family clinic in Haryana!"</p>
+      <div class="review-author">
+        <div class="author-avatar">AM</div>
+        <div>
+          <div class="author-name">Anita Mehta</div>
+          <div class="author-tag">Family Patient</div>
+        </div>
+      </div>
+    </div>
+    <div class="review-card fade-up">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">"Very reasonable fees and excellent service. The clinic is spotlessly clean and the doctor explained everything clearly. Highly recommend!"</p>
+      <div class="review-author">
+        <div class="author-avatar">VG</div>
+        <div>
+          <div class="author-name">Vijay Gupta</div>
+          <div class="author-tag">Verified Patient</div>
+        </div>
+      </div>
+    </div>
+    <div class="review-card fade-up">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">"I was nervous about my root canal but the doctor made me feel so comfortable. Treatment was completely painless. Really grateful for the care!"</p>
+      <div class="review-author">
+        <div class="author-avatar">NK</div>
+        <div>
+          <div class="author-name">Neha Kumari</div>
+          <div class="author-tag">Root Canal Patient</div>
+        </div>
+      </div>
+    </div>
+    <div class="review-card fade-up">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">"Perfect smile makeover! Top-tier cosmetic work with great attention to detail — my teeth look absolutely perfect. Very happy with the results!"</p>
+      <div class="review-author">
+        <div class="author-avatar">SA</div>
+        <div>
+          <div class="author-name">Sunita Arora</div>
+          <div class="author-tag">Cosmetic Patient</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="text-align: center;">
+    <a href="https://maps.google.com/?q=Saini+Dental+Clinic+Implant+Centre+Babain+Haryana" target="_blank" class="google-badge">
+      <span class="google-g">G</span>
+      See All Reviews on Google
+    </a>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-info fade-up">
+    <div class="section-label">Find Us</div>
+    <h2 class="section-title">Book Your Appointment</h2>
+    <p class="section-sub" style="margin-bottom: 2rem;">Walk in or call us directly. We're here to help you achieve the perfect smile.</p>
+
+    <div class="contact-detail">
+      <div class="contact-icon">📍</div>
+      <div>
+        <h4>Address</h4>
+        <p>near Saini Pansari, near Aggarwal Electronics<br>Ram Saran Majra, Babain, Haryana 136156</p>
+      </div>
+    </div>
+    <div class="contact-detail">
+      <div class="contact-icon">📞</div>
+      <div>
+        <h4>Phone / WhatsApp</h4>
+        <p><a href="tel:08818083738" style="color: var(--navy); text-decoration: none; font-weight: 600;">088180 83738</a></p>
+      </div>
+    </div>
+    <div class="contact-detail">
+      <div class="contact-icon">🕐</div>
+      <div>
+        <h4>Clinic Hours</h4>
+        <p>Mon – Sun: Open till 7:00 PM (All days including weekends)</p>
+      </div>
+    </div>
+
+    <div class="map-embed">
+      <p>📍 Ram Saran Majra, Babain, Haryana 136156</p>
+      <a href="https://maps.google.com/?q=Saini+Dental+Clinic+Babain+Haryana+136156" target="_blank" class="map-link">Open in Google Maps</a>
+    </div>
+  </div>
+
+  <div class="contact-form-wrap fade-up">
+    <div class="form-title">Send Us a Message</div>
+    <div class="form-group form-row">
+      <div>
+        <label>Your Name</label>
+        <input type="text" placeholder="e.g. Rahul Sharma">
+      </div>
+      <div>
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Your mobile number">
+      </div>
+    </div>
+    <div class="form-group">
+      <label>Treatment Needed</label>
+      <select>
+        <option value="">Select a service...</option>
+        <option>Teeth Whitening</option>
+        <option>Root Canal</option>
+        <option>Dental Implants</option>
+        <option>Teeth Whitening</option>
+        <option>Cosmetic Procedures</option>
+        <option>General Checkup</option>
+        <option>Other</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label>Message (optional)</label>
+      <textarea placeholder="Describe your concern or preferred appointment time..."></textarea>
+    </div>
+    <button class="form-submit" onclick="alert('Thank you! We will contact you within 24 hours to confirm your appointment. You can also WhatsApp us directly at 088180 83738.')">
+      Request Appointment →
+    </button>
+    <p style="text-align: center; font-size: 0.82rem; color: var(--gray); margin-top: 1rem;">
+      Or WhatsApp us directly at <strong>088180 83738</strong> for instant response
+    </p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-brand">Saini <span>Dental & Implants</span></div>
+  <div class="footer-links">
+    <a href="#services">Services</a>
+    <a href="#why">About</a>
+    <a href="#testimonials">Reviews</a>
+    <a href="#contact">Contact</a>
+    <a href="tel:08818083738">088180 83738</a>
+  </div>
+  <div class="footer-copy">
+    © 2025 Saini Dental Clinic & Implant Centre · Ram Saran Majra, Babain, Haryana 136156 · All Rights Reserved
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<a href="https://wa.me/918818083738?text=Hi%2C%20I%20would%20like%20to%20book%20an%20appointment%20at%20Saini%20Dental%20Clinic" target="_blank" class="whatsapp-float" title="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+  </svg>
+</a>
+
+<!-- SCROLL ANIMATIONS -->
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
